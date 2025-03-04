@@ -1,0 +1,8 @@
+:root {
+	--color-bg: rgba(234, 232, 225, 0.2);
+	--font-default: 'Lustria', serif;
+}
+
+body {
+	font-family: var(--font-default);
+}

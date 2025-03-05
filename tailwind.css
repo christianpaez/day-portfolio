@@ -1,8 +1,13 @@
 :root {
 	--color-bg: rgba(234, 232, 225, 0.2);
 	--font-default: 'Lustria', serif;
+	--font-satoshi: 'Satoshi', sans-serif;
 }
 
 body {
 	font-family: var(--font-default);
+}
+
+.font-satoshi {
+	font-family: var(--font-satoshi);
 }

@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 <!doctype html>
 <html>
 
@@ -130,6 +134,18 @@
 				<canvas id="canvas"></canvas>
 
 			</div>
+		</section>
+		<section>
+			{% for project in site.projects %}
+			<li>
+				<h2>{{ project.title }}</h2>
+				<h3>{{ project.description }}</h3>
+				{% for tag in project.tags %}
+				<p>{{ tag }}</p>
+
+				{% endfor %}
+			</li>
+			{% endfor %}
 		</section>
 	</main>
 </body>

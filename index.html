@@ -135,16 +135,28 @@ layout: default
 
 			</div>
 		</section>
-		<section>
+		<section class="px-6">
 			{% for project in site.projects %}
-			<li>
-				<h2>{{ project.title }}</h2>
-				<h3>{{ project.description }}</h3>
+			<div class="bg-{{ project.bg-color }} px-6 pt-8 rounded-3xl">
+				<h2 class="text-3xl font-satoshi font-normal text-neutral-900">{{ project.title }}</h2>
+				<p class="text-lg font-satoshi font-normal text-neutral-900/60">{{ project.description
+					}}
+				</p>
+				<img class="hidden" src={{ project.image-url }} />
 				{% for tag in project.tags %}
-				<p>{{ tag }}</p>
-
+				<div class="flex items-center rounded-full bg-{{project.badge-bg-color}}">
+					<svg xmlns="http://www.w3.org/2000/svg"
+						style="user-select: none; width: 100%; height: 100%; display: inline-block; fill: var(--token-d78b5648-2f6d-40d3-b003-63d3ee4ec029, rgb(130, 124, 106)); flex-shrink: 0;"
+						focusable="false" viewBox="0 0 24 24"
+						color="var(--token-d78b5648-2f6d-40d3-b003-63d3ee4ec029, rgb(130, 124, 106))">
+						<path
+							d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.95 8.23l-5.66 5.66c-.39.39-1.02.39-1.41 0l-2.83-2.83a.9959.9959 0 0 1 0-1.41c.39-.39 1.02-.39 1.41 0l2.12 2.12 4.95-4.95c.39-.39 1.02-.39 1.41 0 .4.39.4 1.02.01 1.41z">
+						</path>
+					</svg>
+					<span class="text-lg font-satoshi font-normal text-neutral-900">{{ tag }}</span>
+				</div>
 				{% endfor %}
-			</li>
+			</div>
 			{% endfor %}
 		</section>
 	</main>

@@ -155,7 +155,7 @@ layout: default
 						<div class="flex flex-col gap-3">
 							{% for tag in project.tags %}
 							<div
-								class="flex items-center rounded-full bg-{{project.badge-bg-color}} gap-2 pl-3 pr-4 py-2 md:w-[fit-content]">
+								class="flex items-center rounded-full bg-{{project.badge-bg-color}} gap-2 pl-3 pr-4 py-2 w-fit">
 								<svg xmlns="http://www.w3.org/2000/svg"
 									viewBox="0 0 24 24"
 									class="h-[26px] fill-{{project.badge-fill-color}}">
@@ -171,7 +171,7 @@ layout: default
 							{% endfor %}
 						</div>
 					</div>
-					<img class="hidden md:block max-w-md rounded-2xl" src={{ project.image-url }} />
+					<img class="hidden lg:block max-w-md rounded-2xl" src={{ project.image-url }} />
 				</div>
 				<div class="flex gap-2 items-center">
 					<h3 class="font-satoshi font-lg font-bold text-neutral-900/80">View

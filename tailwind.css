@@ -1,6 +1,19 @@
 :root {
 	--color-bg: rgba(234, 232, 225, 0.2);
 	--color-indigo: rgb(152, 125, 165);
+
+	--color-gray-neutral: rgb(244, 242, 239);
+	--color-gray-dark: rgb(130, 124, 106);
+	--color-gray-light: rgb(250, 249, 247);
+
+	--color-purple-light: rgb(229, 219, 235);
+	--color-purple-neutral: rgb(222, 202, 232);
+	--color-purple-dark: rgb(152, 125, 165);
+
+	--color-violet-light: rgb(231, 227, 255);
+	--color-violet-neutral: rgb(200, 195, 247);
+	--color-violet-dark: rgb(120, 109, 161);
+
 	--font-default: 'Lustria', serif;
 	--font-satoshi: 'Satoshi', sans-serif;
 }

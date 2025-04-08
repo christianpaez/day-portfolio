@@ -2,6 +2,22 @@
 	--color-bg: rgba(234, 232, 225, 0.2);
 	--color-indigo: rgb(152, 125, 165);
 
+	--color-zinc-neutral: rgb(148, 161, 170);
+	--color-zinc-dark: rgb(204, 211, 217);
+	--color-zinc-light: rgb(220, 228, 234);
+
+	--color-teal-neutral: rgb(121, 171, 164);
+	--color-teal-dark: rgb(167, 217, 210);
+	--color-teal-light: rgb(194, 237, 231);
+
+	--color-orange-neutral: rgb(194, 163, 134);
+	--color-orange-dark: rgb(242, 215, 189);
+	--color-orange-light: rgb(250, 228, 208);
+
+	--color-blue-neutral: rgb(196, 230, 255);
+	--color-blue-dark: rgb(96, 144, 179);
+	--color-blue-light: rgb(171, 216, 255);
+
 	--color-gray-neutral: rgb(244, 242, 239);
 	--color-gray-dark: rgb(130, 124, 106);
 	--color-gray-light: rgb(250, 249, 247);

@@ -137,7 +137,7 @@ layout: default
 		</section>
 		<section class="flex flex-col items-center px-6 gap-6">
 			<div class="py-18">
-				<h2 class="text-3xl font-satoshi font-normal text-center">My work</h2>
+				<h2 class="text-4xl font-satoshi font-normal text-center">My work</h2>
 			</div>
 			{% for project in site.projects %}
 			<div
@@ -189,6 +189,118 @@ layout: default
 			</div>
 			{% endfor %}
 			</div>
+		</section>
+
+		<section class="px-6 flex flex-col gap-5 items-center">
+			<h2 class="text-2xl md:text-4xl py-18 line-clamp-3 font-satoshi font-normal text-center">What
+				others are
+				saying
+				about my work,
+				thank you!</h2>
+
+			<div class="flex flex-col lg:flex-row justify-center gap-5">
+
+				{% for testimonial in site.testimonials %}
+				<div
+					class="flex flex-col gap-6 h-[22.5rem] w-[20rem] rounded-3xl shadow-lg bg-white p-6">
+					<div class="flex gap-5 items-center">
+						<img alt="" src={{testimonial.image-url}}
+							class="rounded-full object-cover size-[50px]" />
+						<div class="flex flex-col">
+							<h3
+								class="text-xl font-normal text-left text-neutral-900 font-satoshi">
+								{{testimonial.name}}
+							</h3>
+
+							<p
+								class="mt-1 text-lg text-neutral-900 font-normal font-satoshi">
+								{{testimonial.job-tile}}</p>
+
+						</div>
+					</div>
+
+					<div class="">
+						<p class="text-lg font-normal text-start font-satoshi text-neutral-900">
+							{{testimonial.recommendation}}
+						</p>
+					</div>
+				</div>
+
+				{% endfor %}
+			</div>
+		</section>
+		<section>
+			<div class="space-y-4">
+				<details class="group [&_summary::-webkit-details-marker]:hidden" open>
+					<summary
+						class="flex items-center justify-between gap-1.5 rounded-md border border-gray-100 bg-gray-50 p-4 text-gray-900">
+						<h2 class="text-lg font-medium">Lorem ipsum dolor sit amet consectetur
+							adipisicing?</h2>
+
+						<svg class="size-5 shrink-0 transition-transform duration-300 group-open:-rotate-180"
+							xmlns="http://www.w3.org/2000/svg" fill="none"
+							viewBox="0 0 24 24" stroke="currentColor">
+							<path stroke-linecap="round" stroke-linejoin="round"
+								stroke-width="2" d="M19 9l-7 7-7-7" />
+						</svg>
+					</summary>
+
+					<p class="px-4 pt-4 text-gray-900">
+						Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab hic
+						veritatis molestias culpa in,
+						recusandae laboriosam neque aliquid libero nesciunt voluptate dicta quo
+						officiis explicabo
+						consequuntur distinctio corporis earum similique!
+					</p>
+				</details>
+
+				<details class="group [&_summary::-webkit-details-marker]:hidden">
+					<summary
+						class="flex items-center justify-between gap-1.5 rounded-md border border-gray-100 bg-gray-50 p-4 text-gray-900">
+						<h2 class="text-lg font-medium">Lorem ipsum dolor sit amet consectetur
+							adipisicing?</h2>
+
+						<svg class="size-5 shrink-0 transition-transform duration-300 group-open:-rotate-180"
+							xmlns="http://www.w3.org/2000/svg" fill="none"
+							viewBox="0 0 24 24" stroke="currentColor">
+							<path stroke-linecap="round" stroke-linejoin="round"
+								stroke-width="2" d="M19 9l-7 7-7-7" />
+						</svg>
+					</summary>
+
+					<p class="px-4 pt-4 text-gray-900">
+						Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab hic
+						veritatis molestias culpa in,
+						recusandae laboriosam neque aliquid libero nesciunt voluptate dicta quo
+						officiis explicabo
+						consequuntur distinctio corporis earum similique!
+					</p>
+				</details>
+
+				<details class="group [&_summary::-webkit-details-marker]:hidden">
+					<summary
+						class="flex items-center justify-between gap-1.5 rounded-md border border-gray-100 bg-gray-50 p-4 text-gray-900">
+						<h2 class="text-lg font-medium">Lorem ipsum dolor sit amet consectetur
+							adipisicing?</h2>
+
+						<svg class="size-5 shrink-0 transition-transform duration-300 group-open:-rotate-180"
+							xmlns="http://www.w3.org/2000/svg" fill="none"
+							viewBox="0 0 24 24" stroke="currentColor">
+							<path stroke-linecap="round" stroke-linejoin="round"
+								stroke-width="2" d="M19 9l-7 7-7-7" />
+						</svg>
+					</summary>
+
+					<p class="px-4 pt-4 text-gray-900">
+						Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab hic
+						veritatis molestias culpa in,
+						recusandae laboriosam neque aliquid libero nesciunt voluptate dicta quo
+						officiis explicabo
+						consequuntur distinctio corporis earum similique!
+					</p>
+				</details>
+			</div>
+
 		</section>
 	</main>
 </body>

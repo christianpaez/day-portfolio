@@ -1,3 +1,5 @@
 collections:
   projects:
   testimonials:
+  faqs:
+    sort_by: id

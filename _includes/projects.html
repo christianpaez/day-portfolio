@@ -1,0 +1,50 @@
+
+{% for project in site.projects %}
+			<div
+        class="flex flex-col gap-16 py-8 md:py-16 px-6 md:px-12 rounded-3xl bg-[var(--{{ project.bg-color }})] max-w-6xl">
+				<div class="flex flex-col md:flex-row gap-16 md:gap-12">
+					<div class="flex flex-col gap-8">
+						<h2 class="text-3xl font-satoshi font-normal text-neutral-900">{{
+							project.title
+							}}</h2>
+						<p class="text-lg font-satoshi font-normal text-neutral-900/60">{{
+							project.description
+							}}
+						</p>
+
+						<div class="flex flex-col gap-3">
+							{% for tag in project.tags %}
+							<div
+								class="flex items-center rounded-full bg-[var(--{{ project.badge-bg-color }})] gap-2 pl-3 pr-4 py-2 w-fit">
+								<svg xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 24 24"
+									class="h-[26px] fill-[var(--{{ project.badge-fill-color }})]">
+									<path
+										d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.95 8.23l-5.66 5.66c-.39.39-1.02.39-1.41 0l-2.83-2.83a.9959.9959 0 0 1 0-1.41c.39-.39 1.02-.39 1.41 0l2.12 2.12 4.95-4.95c.39-.39 1.02-.39 1.41 0 .4.39.4 1.02.01 1.41z">
+									</path>
+								</svg>
+								<span
+									class="text-lg font-satoshi font-normal text-neutral-900">{{
+									tag
+									}}</span>
+							</div>
+							{% endfor %}
+						</div>
+					</div>
+					<img class="hidden lg:block object-cover max-w-md rounded-2xl" src={{
+						project.image-url }} />
+				</div>
+				<div class="flex gap-2 items-center">
+					<h3 class="font-satoshi font-lg font-bold text-neutral-900/80">View
+						Project</h3>
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+						class="size-5 fill-neutral-900/80">
+						<path fill-rule="evenodd"
+							d="M12.97 3.97a.75.75 0 0 1 1.06 0l7.5 7.5a.75.75 0 0 1 0 1.06l-7.5 7.5a.75.75 0 1 1-1.06-1.06l6.22-6.22H3a.75.75 0 0 1 0-1.5h16.19l-6.22-6.22a.75.75 0 0 1 0-1.06Z"
+							clip-rule="evenodd" />
+					</svg>
+
+				</div>
+
+			</div>
+			{% endfor %}

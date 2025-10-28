@@ -1,5 +1,16 @@
 collections:
   projects:
+    output: true
   testimonials:
   faqs:
     sort_by: id
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
+  - scope:
+      path: ""
+    values:
+      layout: "default"

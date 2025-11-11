@@ -6,4 +6,6 @@ image-url: "/assets/img/munily.png"
 bg-color: "color-blue-neutral"
 badge-bg-color: "color-blue-light"
 badge-fill-color: "color-blue-dark"
+overview: "Software for the management of buildings. We provide solutions for communication and security in communities.<br /><br /> Munily is an app currently available for the Latin American community on the App Store and Play Store."
+industry: "Community management platform"
 ---

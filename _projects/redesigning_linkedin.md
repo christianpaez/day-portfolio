@@ -6,5 +6,7 @@ image-url: "/assets/img/redesigning-linkedin.jpeg"
 bg-color: "color-zinc-light"
 badge-bg-color: "color-zinc-dark"
 badge-fill-color: "color-zinc-neutral"
+overview: "Professional networking platform designed to connect individuals, businesses, and organizations for career development, job opportunities, and professional growth."
+industry: "Redesigning Solution"
 ---
 

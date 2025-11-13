@@ -15,7 +15,7 @@
     </p>
   </div>
   <div class="relative overflow-hidden rounded-2xl">
-    <img class="w-full h-auto my-[-48px] mb-[-88px] md:my-[-64px] md:mb-[-200px]"
-      src="{{ page.detail-header-image-url | default: page.image-url }}" alt="{{page.title}} Image" />
+    <img class="w-full h-auto {{ page.detail-header-image-custom-margin | default: "" }} md:my-0 md:mb-0"
+      src="{{ page.detail-header-image-url }}" alt="{{page.title}} Image" />
   </div>
 </div>

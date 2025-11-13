@@ -4,6 +4,7 @@ description: Educational app designed to engage young learners through fun activ
 tags: ["User Research", "UX Design", "UI Design phone/tablet size"]
 image-url: "/assets/img/smarty-kids.jpeg"
 detail-header-image-url: "/assets/img/smarty-kids-detail-header.png"
+detail-header-image-custom-margin: "my-[-44px] mb-[-48px]"
 bg-color: "color-orange-light"
 badge-bg-color: "color-orange-dark"
 badge-fill-color: "color-orange-neutral"

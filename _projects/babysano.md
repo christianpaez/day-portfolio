@@ -4,6 +4,8 @@ description: Comprehensive resource for parents, offering 24/7 access to product
 tags: ["User Research", "UX web and mobile", "UI Design"]
 industry: "E-commerce & community"
 image-url: "/assets/img/babysano.jpeg"
+detail-header-image-url: '/assets/img/babysano-detail-header.png'
+detail-header-image-custom-margin: "my-[-32px] mb-[-36px]"
 bg-color: "color-purple-neutral"
 badge-bg-color: "color-purple-light"
 badge-fill-color: "color-purple-dark"

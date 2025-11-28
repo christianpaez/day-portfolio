@@ -1,9 +1,27 @@
-<div>
-  <img src={{ page.logo-url }} />
-  <div class="text-lg text-gray-600 font-satoshi">
-    Role
+<div class="flex flex-col gap-5 w-full">
+  <img src={{ page.logo-url }} class="w-fit" />
+  <div>
+    <div class="text-lg text-gray-600 font-satoshi">
+      Role
+    </div>
+    <div class="text-2xl text-gray-800">
+      {{ page.role}}
+    </div>
   </div>
-  <div class="text-2xl text-gray-800">
-    {{ page.role}}
+  <div>
+    <div class="text-lg text-gray-600 font-satoshi">
+      Duration
+    </div>
+    <div class="text-2xl text-gray-800">
+      {{ page.duration}}
+    </div>
+  </div>
+  <div>
+    <div class="text-lg text-gray-600 font-satoshi">
+      Tools Used
+    </div>
+    <div class="text-2xl text-gray-800">
+      {{ page.tools-used}}
+    </div>
   </div>
 </div>

@@ -11,8 +11,8 @@ badge-bg-color: "color-purple-light"
 badge-fill-color: "color-purple-dark"
 overview: "24/7 resource for parents - offering a wide range of children's products, medical consultations and reliable information."
 role: "UX UI Designer"
-duration: ""
-tools-used: ""
+duration: "8 months"
+tools-used: "Figma, Illustrator"
 logo-url: "/assets/img/babysano-logo.png"
 ---
 

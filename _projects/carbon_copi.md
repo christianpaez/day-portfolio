@@ -10,6 +10,10 @@ badge-bg-color: "color-gray-light"
 badge-fill-color: "color-gray-dark"
 overview: "Software solution created for real estate investors to facilitate the management and tracking of partnerships and deals."
 industry: "Real Estate"
+duration: "Ongoing project"
+tools-used: "Figma, Illustrator"
+logo-url: "/assets/img/carbon-copi-logo.png"
+
 ---
 
 {% include project_overview.html %}

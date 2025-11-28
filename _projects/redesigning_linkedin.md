@@ -10,5 +10,9 @@ badge-bg-color: "color-zinc-dark"
 badge-fill-color: "color-zinc-neutral"
 overview: "Professional networking platform designed to connect individuals, businesses, and organizations for career development, job opportunities, and professional growth."
 industry: "Redesigning Solution"
+role: "UX UI Designer"
+duration: "6 months"
+tools-used: "Figma, Maze"
+logo-url: "/assets/img/redesigning-linkedin-logo.png"
 ---
 

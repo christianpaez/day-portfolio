@@ -9,5 +9,9 @@ badge-bg-color: "color-violet-light"
 badge-fill-color: "color-violet-dark"
 overview: "A decentralized social media platform that allows users to interact, upload and consume content, while earning revenue based on their contributions. This project was designed for Oiga Technologies."
 industry: "Decentralized social media platform"
+role: "UI Designer"
+duration: "2 years"
+tools-used: "Figma, Illustrator"
+logo-url: "/assets/img/ourglass-logo.png"
 ---
 

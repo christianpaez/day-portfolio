@@ -1,0 +1,12 @@
+<div class="bg-white w-full flex flex-col items-center px-12 py-16">
+  <div class="max-w-md flex flex-col items-center gap-10">
+    <div class="flex justify-center text-4xl font-satoshi">
+      Problem 🚩
+    </div>
+    <div>
+      {% for challenge in page.challenges %}
+      <div>{{ challenge.text }}</div><br />
+      {% endfor %}
+    </div>
+  </div>
+</div>

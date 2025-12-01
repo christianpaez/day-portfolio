@@ -14,6 +14,12 @@ role: "UX UI Designer"
 duration: "8 months"
 tools-used: "Figma, Illustrator"
 logo-url: "/assets/img/babysano-logo.png"
+challenges: 
+  - text: "Current centralized social media platforms create several key challenges for users and creators."
+  - text: "These platforms often use user data for targeted advertising, undermining privacy. Their algorithms prioritize content that reinforces existing beliefs, creating filter bubbles and polarizing communities." 
+  - text: "Monetization options for creators are limited as most platforms take a large share of revenue and control visibility through unpredictable algorithms." 
+  - text: "Finally, users lack true ownership of their communities, as platforms maintain control over data, rules, and access, leaving little room for community-led governance."
+  - text: "These issues highlight the need for more transparent, user-controlled alternatives."
 ---
 
 

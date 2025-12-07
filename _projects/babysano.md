@@ -20,6 +20,9 @@ challenges:
   - text: "Monetization options for creators are limited as most platforms take a large share of revenue and control visibility through unpredictable algorithms." 
   - text: "Finally, users lack true ownership of their communities, as platforms maintain control over data, rules, and access, leaving little room for community-led governance."
   - text: "These issues highlight the need for more transparent, user-controlled alternatives."
+solutions:
+  - text: "Babysano (\"Healthy baby\" in Spanish) was created as an all-in-one-platform available as both an app and a website. Designed to give parents or soon to be parents easy access to a wide range of services and products. It also provides a space for doctors to promote their services and connect with families."
+  - text: "The product was designed in Spanish to meet the needs of the local audience in Latin America."
 ---
 
 

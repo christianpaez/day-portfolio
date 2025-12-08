@@ -23,14 +23,15 @@ challenges:
 solutions:
   - text: "Babysano (\"Healthy baby\" in Spanish) was created as an all-in-one-platform available as both an app and a website. Designed to give parents or soon to be parents easy access to a wide range of services and products. It also provides a space for doctors to promote their services and connect with families."
   - text: "The product was designed in Spanish to meet the needs of the local audience in Latin America."
-user_personas: 
+user-personas: 
   - text: "Research methods such as interviews, surveys, and studies lead to our development of user personas."
 ---
-
-
-Comprehensive resource for parents, offering 24/7 access to products for children, medical consultations, reliable medical articles, and a supportive community.
-
-- User Research
-- UX web and mobile
-- UI Design
+   {% include project_overview.html %}
+   {% include project_metadata.html %}
+   {% include project_challenges.html %}
+   {% include project_solutions.html %}
+   {% include project_image.html src="babysano1.png" alt="babysano image" class="rounded-lg" %}
+   {% include project_user_personas.html %}
+   {% include project_image.html src="babysano2.png" alt="babysano image" class="rounded-lg" %}
+   {% include project_image.html src="babysano3.png" alt="babysano image" class="rounded-lg" %}
 

@@ -1,0 +1,6 @@
+{% assign name = include.src | split: '.' | first %}
+{% assign ext = include.src | split: '.' | last %}
+
+<img src="/assets/img/{{ name }}-mobile.{{ ext }}" srcset="/assets/img/{{ name }}-mobile.{{ ext }} 600w,
+          /assets/img/{{ name }}-desktop.{{ ext }} 1200w" sizes="(max-width: 768px) 100vw, (min-width: 769px) 100vw"
+  alt="{{ include.alt }}" class="{{ include.class }}">

@@ -7,26 +7,30 @@ import (
 	"os"
 	"os/exec"
 	"path/filepath"
+	"strconv"
 )
 
 type FilesDestination struct {
-	path   string
-	dryRun bool
-	// TODO handle indexing files
+	path             string
+	fileName         string
+	realRun          bool
+	currentFileIndex int
 }
 
-func newFilesDestination(path string) *FilesDestination {
-	destination := FilesDestination{path: path}
-	destination.dryRun = true
+func newFilesDestination(path string, fileName string, realRun bool) *FilesDestination {
+	destination := FilesDestination{path: path, fileName: fileName, realRun: realRun}
+	destination.currentFileIndex = 1
 	return &destination
 
 }
 
 func (filesDestination *FilesDestination) copyToDestination(fileName string, filePath string) error {
-	copyCommand := exec.Command(copyBinaryPath, filePath, filesDestination.path)
-	fmt.Printf("Copying %s to %s\n", filePath, filesDestination.path)
+	newFileName := fmt.Sprintf("%s-%s%s", filesDestination.fileName, strconv.Itoa(filesDestination.currentFileIndex), filepath.Ext(filePath))
+	newFilePath := fmt.Sprintf("%s/%s", filesDestination.path, newFileName)
+	copyCommand := exec.Command(copyBinaryPath, filePath, newFilePath)
+	fmt.Printf("Copying %s to %s\n", filePath, newFilePath)
 
-	if filesDestination.dryRun == true {
+	if filesDestination.realRun == false {
 		return nil
 	}
 
@@ -36,6 +40,7 @@ func (filesDestination *FilesDestination) copyToDestination(fileName string, fil
 		panic(err)
 	}
 
+	filesDestination.currentFileIndex++
 	fmt.Println("File Copied Sucessfully")
 	return nil
 }
@@ -64,6 +69,7 @@ func main() {
 	var filePointer = flag.String("file", "", "Zip file containing images")
 	var fileNamePointer = flag.String("filename", "", "Filename to be used as prefix")
 	var filesDestinationPointer = flag.String("fileDestination", "", "Destination to copy files to")
+	var realRunPointer = flag.Bool("realRun", false, "Set to true to actually modify files, false to check files to be changed")
 	flag.Parse()
 
 	if *filePointer == "" {
@@ -85,7 +91,8 @@ func main() {
 		flag.PrintDefaults()
 		os.Exit(1)
 	}
-	filesDestination = newFilesDestination(*filesDestinationPointer)
+
+	filesDestination = newFilesDestination(*filesDestinationPointer, *fileNamePointer, *realRunPointer)
 	command := exec.Command(unzipBinaryPath, *filePointer, "-d", tempDirectory)
 
 	fmt.Println("Unzipping...")
@@ -100,5 +107,9 @@ func main() {
 
 	if readError != nil {
 		panic(readError)
+	}
+
+	if filesDestination.realRun == false {
+		fmt.Println("\nThis was a dry run, use the --realRun flag if you are happy with the current output")
 	}
 }

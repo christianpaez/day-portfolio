@@ -29,6 +29,7 @@ func (filesDestination *FilesDestination) copyToDestination(fileName string, fil
 	newFilePath := fmt.Sprintf("%s/%s", filesDestination.path, newFileName)
 	copyCommand := exec.Command(copyBinaryPath, filePath, newFilePath)
 	fmt.Printf("Copying %s to %s\n", filePath, newFilePath)
+	filesDestination.currentFileIndex++
 
 	if filesDestination.realRun == false {
 		return nil
@@ -40,7 +41,6 @@ func (filesDestination *FilesDestination) copyToDestination(fileName string, fil
 		return err
 	}
 
-	filesDestination.currentFileIndex++
 	fmt.Println("File Copied Sucessfully")
 	return nil
 }

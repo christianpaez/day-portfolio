@@ -15,4 +15,12 @@ duration: "2 years"
 tools-used: "Figma, Illustrator"
 logo-url: "/assets/img/munily-logo.png"
 ---
-
+{% include project_image.html name="munily" extension="png" index="1" alt="munily app image" class="rounded-lg" %}
+{% include project_image.html name="munily" extension="png" index="2" alt="munily app image" class="rounded-lg" %}
+{% include project_image.html name="munily" extension="png" index="3" alt="munily app image" class="rounded-lg" %}
+{% include project_image.html name="munily" extension="png" index="4" alt="munily app image" class="rounded-lg" %}
+{% include project_image.html name="munily" extension="png" index="5" alt="munily app image" class="rounded-lg" %}
+{% include project_image.html name="munily" extension="png" index="6" alt="munily app image" class="rounded-lg" %}
+{% include project_image.html name="munily" extension="png" index="7" alt="munily app image" class="rounded-lg" %}
+{% include project_image.html name="munily" extension="png" index="8" alt="munily app image" class="rounded-lg" %}
+{% include project_image.html name="munily" extension="png" index="9" alt="munily app image" class="rounded-lg" %}

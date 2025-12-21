@@ -37,7 +37,7 @@ func (filesDestination *FilesDestination) copyToDestination(fileName string, fil
 	err := copyCommand.Run()
 
 	if err != nil {
-		panic(err)
+		return err
 	}
 
 	filesDestination.currentFileIndex++
@@ -53,7 +53,7 @@ var filesDestination *FilesDestination
 
 func visit(path string, info fs.FileInfo, visitError error) error {
 	if visitError != nil {
-		panic(visitError)
+		return visitError
 	}
 	if info.IsDir() {
 		fmt.Println("Skipping folder...")

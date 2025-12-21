@@ -15,3 +15,11 @@ duration: "2 years"
 tools-used: "Figma, Illustrator"
 logo-url: "/assets/img/tori-logo.png"
 ---
+{% include project_image.html name="tori" extension="png" index="1" alt="tori image" class="rounded-lg" %}
+{% include project_image.html name="tori" extension="png" index="2" alt="tori image" class="rounded-lg" %}
+{% include project_image.html name="tori" extension="png" index="3" alt="tori image" class="rounded-lg" %}
+{% include project_image.html name="tori" extension="png" index="4" alt="tori image" class="rounded-lg" %}
+{% include project_image.html name="tori" extension="png" index="5" alt="tori image" class="rounded-lg" %}
+{% include project_image.html name="tori" extension="png" index="6" alt="tori image" class="rounded-lg" %}
+{% include project_image.html name="tori" extension="png" index="7" alt="tori image" class="rounded-lg" %}
+{% include project_image.html name="tori" extension="png" index="8" alt="tori image" class="rounded-lg" %}

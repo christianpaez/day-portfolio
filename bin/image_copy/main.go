@@ -99,6 +99,7 @@ func main() {
 
 	commandError := command.Run()
 	if commandError != nil {
+		fmt.Printf("An error ocurred: while unzipping with unzip!\n")
 		panic(commandError)
 	}
 	defer os.RemoveAll(tempDirectory)

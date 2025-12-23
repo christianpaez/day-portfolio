@@ -15,3 +15,12 @@ tools-used: "Figma, Illustrator"
 logo-url: "/assets/img/ourglass-logo.png"
 ---
 
+{% include project_image.html name="ourglass" extension="png" index="1" alt="ourglass image" class="rounded-lg" %}
+{% include project_image.html name="ourglass" extension="png" index="2" alt="ourglass image" class="rounded-lg" %}
+{% include project_image.html name="ourglass" extension="png" index="3" alt="ourglass image" class="rounded-lg" %}
+{% include project_image.html name="ourglass" extension="png" index="4" alt="ourglass image" class="rounded-lg" %}
+{% include project_image.html name="ourglass" extension="png" index="5" alt="ourglass image" class="rounded-lg" %}
+{% include project_image.html name="ourglass" extension="png" index="6" alt="ourglass image" class="rounded-lg" %}
+{% include project_image.html name="ourglass" extension="png" index="7" alt="ourglass image" class="rounded-lg" %}
+{% include project_image.html name="ourglass" extension="png" index="8" alt="ourglass image" class="rounded-lg" %}
+{% include project_image.html name="ourglass" extension="png" index="9" alt="ourglass image" class="rounded-lg" %}

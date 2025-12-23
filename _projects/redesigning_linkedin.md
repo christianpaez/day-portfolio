@@ -15,4 +15,12 @@ duration: "6 months"
 tools-used: "Figma, Maze"
 logo-url: "/assets/img/redesigning-linkedin-logo.png"
 ---
-
+{% include project_image.html name="redesigning-linkedin" extension="png" index="1" alt="LinkedIn image" class="rounded-lg" %}
+{% include project_image.html name="redesigning-linkedin" extension="png" index="2" alt="LinkedIn image" class="rounded-lg" %}
+{% include project_image.html name="redesigning-linkedin" extension="png" index="3" alt="LinkedIn image" class="rounded-lg" %}
+{% include project_image.html name="redesigning-linkedin" extension="png" index="4" alt="LinkedIn image" class="rounded-lg" %}
+{% include project_image.html name="redesigning-linkedin" extension="png" index="5" alt="LinkedIn image" class="rounded-lg" %}
+{% include project_image.html name="redesigning-linkedin" extension="png" index="6" alt="LinkedIn image" class="rounded-lg" %}
+{% include project_image.html name="redesigning-linkedin" extension="png" index="7" alt="LinkedIn image" class="rounded-lg" %}
+{% include project_image.html name="redesigning-linkedin" extension="png" index="8" alt="LinkedIn image" class="rounded-lg" %}
+{% include project_image.html name="redesigning-linkedin" extension="png" index="9" alt="LinkedIn image" class="rounded-lg" %}

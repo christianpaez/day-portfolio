@@ -15,3 +15,22 @@ duration: "Ongoing project"
 tools-used: "Figma, Illustrator"
 logo-url: "/assets/img/smarty-kids-logo.png"
 ---
+{% include project_image.html name="smarty-kids" extension="png" index="1" alt="Smarty Kids image" class="rounded-lg" %}
+{% include project_image.html name="smarty-kids" extension="png" index="2" alt="Smarty Kids image" class="rounded-lg" %}
+{% include project_image.html name="smarty-kids" extension="png" index="3" alt="Smarty Kids image" class="rounded-lg" %}
+{% include project_image.html name="smarty-kids" extension="png" index="4" alt="Smarty Kids image" class="rounded-lg" %}
+{% include project_image.html name="smarty-kids" extension="png" index="5" alt="Smarty Kids image" class="rounded-lg" %}
+{% include project_image.html name="smarty-kids" extension="png" index="6" alt="Smarty Kids image" class="rounded-lg" %}
+{% include project_image.html name="smarty-kids" extension="png" index="7" alt="Smarty Kids image" class="rounded-lg" %}
+{% include project_image.html name="smarty-kids" extension="png" index="8" alt="Smarty Kids image" class="rounded-lg" %}
+{% include project_image.html name="smarty-kids" extension="png" index="9" alt="Smarty Kids image" class="rounded-lg" %}
+{% include project_image.html name="smarty-kids" extension="png" index="10" alt="Smarty Kids image" class="rounded-lg" %}
+{% include project_image.html name="smarty-kids" extension="png" index="11" alt="Smarty Kids image" class="rounded-lg" %}
+{% include project_image.html name="smarty-kids" extension="png" index="12" alt="Smarty Kids image" class="rounded-lg" %}
+{% include project_image.html name="smarty-kids" extension="png" index="13" alt="Smarty Kids image" class="rounded-lg" %}
+{% include project_image.html name="smarty-kids" extension="png" index="14" alt="Smarty Kids image" class="rounded-lg" %}
+
+
+
+
+

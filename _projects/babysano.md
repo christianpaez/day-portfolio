@@ -30,8 +30,19 @@ user-personas:
    {% include project_metadata.html %}
    {% include project_challenges.html %}
    {% include project_solutions.html %}
-   {% include project_image.html src="babysano1.png" alt="babysano image" class="rounded-lg" %}
+   {% include project_image.html name="babysano" extension="png" index="1" alt="Babysano image" class="rounded-lg" %}
    {% include project_user_personas.html %}
-   {% include project_image.html src="babysano2.png" alt="babysano image" class="rounded-lg" %}
-   {% include project_image.html src="babysano3.png" alt="babysano image" class="rounded-lg" %}
-
+   {% include project_image.html name="babysano" extension="png" index="2" alt="Babysano image" class="rounded-lg" %}
+   {% include project_image.html name="babysano" extension="png" index="3" alt="Babysano image" class="rounded-lg" %}
+   {% include project_image.html name="babysano" extension="png" index="4" alt="Babysano image" class="rounded-lg" %}
+   {% include project_image.html name="babysano" extension="png" index="5" alt="Babysano image" class="rounded-lg" %}
+   {% include project_image.html name="babysano" extension="png" index="6" alt="Babysano image" class="rounded-lg" %}
+   {% include project_image.html name="babysano" extension="png" index="7" alt="Babysano image" class="rounded-lg" %}
+   {% include project_image.html name="babysano" extension="png" index="8" alt="Babysano image" class="rounded-lg" %}
+   {% include project_image.html name="babysano" extension="png" index="9" alt="Babysano image" class="rounded-lg" %}
+   {% include project_image.html name="babysano" extension="png" index="10" alt="Babysano image" class="rounded-lg" %}
+   {% include project_image.html name="babysano" extension="png" index="11" alt="Babysano image" class="rounded-lg" %}
+   {% include project_image.html name="babysano" extension="png" index="12" alt="Babysano image" class="rounded-lg" %}
+   {% include project_image.html name="babysano" extension="png" index="13" alt="Babysano image" class="rounded-lg" %}
+   {% include project_image.html name="babysano" extension="png" index="14" alt="Babysano image" class="rounded-lg" %}
+   {% include project_image.html name="babysano" extension="png" index="15" alt="Babysano image" class="rounded-lg" %}

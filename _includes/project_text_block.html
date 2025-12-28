@@ -1,0 +1,11 @@
+<div class="bg-{{ include.background | default: " initial"}} w-full flex flex-col items-center px-12 py-16">
+  <div class="max-w-md flex flex-col items-center gap-10">
+    <div class="flex justify-center text-4xl font-satoshi">
+      {{ include.title }}
+    </div>
+    <div>
+      <div class="whitespace-pre-line">{{ include.description }}</div>
+      <br />
+    </div>
+  </div>
+</div>

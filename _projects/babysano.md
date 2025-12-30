@@ -23,7 +23,7 @@ challenges:
 solutions:
   - text: "Babysano (\"Healthy baby\" in Spanish) was created as an all-in-one-platform available as both an app and a website. Designed to give parents or soon to be parents easy access to a wide range of services and products. It also provides a space for doctors to promote their services and connect with families."
   - text: "The product was designed in Spanish to meet the needs of the local audience in Latin America."
-user-personas: 
+user_personas: 
   - text: "Research methods such as interviews, surveys, and studies lead to our development of user personas."
 ---
    {% include project_overview.html %}

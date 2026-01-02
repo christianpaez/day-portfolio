@@ -1,7 +1,5 @@
 <picture>
-  <source media="(max-width: 768px)"
-    srcset="/assets/img/{{ include.name }}-mobile-{{ include.index}}.{{ include.extension }}">
   <source media="(min-width: 769px)"
     srcset="/assets/img/{{ include.name }}-desktop-{{ include.index }}.{{ include.extension }}">
-  <img src="/assets/img/{{ name }}-mobile.{{ ext }}" alt="{{ include.alt }}" class="{{ include.class }}">
+  <img src="/assets/img/{{ include.name }}-desktop-{{ include.index }}.{{ include.extension }}" alt="{{ include.alt }}" class="{{ include.class }}">
 </picture>

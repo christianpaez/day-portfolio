@@ -1,0 +1,9 @@
+<div class="font-satoshi text-zinc-500 font-normal text-lg mb-4">
+  Companies I've worked for
+</div>
+{% for job in site.job_positions %}
+<div class="flex justify-between w-full">
+  <a class="font-satoshi font-normal text-md underline decoration-purple-200! cursor-pointer hover:text-neutral-300! text-neutral-700" {{ job.company_url }}">{{ job.title}}</a>
+  <div class="font-satoshi font-normal text-neutral-400 text-md">{{ job.date_range }}</div>
+</div>
+{% endfor %}

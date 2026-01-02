@@ -1,6 +1,8 @@
 collections:
   projects:
     output: true
+  job_positions:
+    sort_by: id
   testimonials:
   faqs:
     sort_by: id

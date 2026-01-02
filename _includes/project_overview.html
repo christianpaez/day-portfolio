@@ -5,15 +5,20 @@
         {{ page.industry }}
       </span>
     </div>
-
     <h2 class="font-satoshi text-3xl md:text-4xl font-semibold text-gray-900">{{page.title}}</h2>
-
     <p class="text-lg md:text-xl text-gray-600 mb-6">
       {{ page.overview }}
     </p>
   </div>
   <div class="relative overflow-hidden rounded-2xl">
+    {% if page.detail-video-url %}
+    <video loop preload="auto" autoplay>
+      <source src="{{ page.detail-video-url }}" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    {% else %}
     <img class="w-full h-auto {{ page.detail-header-image-custom-margin | default: "" }} md:my-0 md:mb-0"
       src="{{ page.detail-header-image-url }}" alt="{{page.title}} Image" />
+    {% endif %}
   </div>
 </div>

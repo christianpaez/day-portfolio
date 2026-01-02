@@ -3,7 +3,7 @@
 </div>
 {% for job in site.job_positions %}
 <div class="flex justify-between w-full">
-  <a class="font-satoshi font-normal text-md underline decoration-purple-200! cursor-pointer hover:text-neutral-300! text-neutral-700" {{ job.company_url }}">{{ job.title}}</a>
-  <div class="font-satoshi font-normal text-neutral-400 text-md">{{ job.date_range }}</div>
+  <a  href="{{ job.company_url }}" target="_blank" class="font-satoshi font-normal text-md underline decoration-purple-200! cursor-pointer hover:text-neutral-300! text-neutral-700" {{ job.company_url }}">{{ job.title}}</a>
+  <div class="font-satoshi font-normal text-neutral-400 text-md text-right">{{ job.date_range }}</div>
 </div>
 {% endfor %}

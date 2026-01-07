@@ -34,6 +34,7 @@ layout: default
 {% assign featured_projects = site.projects | where: "featured", true %}
           {% include projects.html projects=featured_projects %}
 			</div>
+      {% include button_link.html text="Case Studies" href="/mywork" classnames="my-8" %}
 		</section>
 
 		<section class="px-6 flex flex-col gap-5 items-center">

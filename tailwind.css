@@ -1,3 +1,8 @@
+@keyframes bounce-x {
+  0%, 100% { transform: translateX(0); }
+  50% { transform: translateX(6px); }
+}
+
 :root {
 	--color-bg: rgba(234, 232, 225, 0.3);
 	--color-indigo: rgb(152, 125, 165);
@@ -32,6 +37,8 @@
 
 	--font-default: 'Lustria', serif;
 	--font-satoshi: 'Satoshi', sans-serif;
+
+  --animation-bounce-x: bounce-x 0.7s ease-in infinite;
 }
 
 body {
@@ -42,4 +49,9 @@ body {
 
 .font-satoshi {
 	font-family: var(--font-satoshi);
+}
+/* Arrow bounces when parent <a> is hovered */
+a:hover .arrow-bounce {
+  animation: bounce-x 0.7s ease-in infinite;
+  display: inline-block;
 }

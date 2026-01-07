@@ -1,4 +1,5 @@
 ---
+featured: true
 title: Ourglass
 description: A decentralized social media platform that facilitates online connections between users, allowing them to upload and consume content while generating revenue from their contributions.
 tags: ["UI Design for app", "Design system library"]

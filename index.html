@@ -31,8 +31,8 @@ layout: default
 			<div class="py-18">
 				<h2 class="text-4xl font-satoshi font-normal text-center">My work</h2>
 			</div>
-          {% include projects.html %}
-
+{% assign featured_projects = site.projects | where: "featured", true %}
+          {% include projects.html projects=featured_projects %}
 			</div>
 		</section>
 

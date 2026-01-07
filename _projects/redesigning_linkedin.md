@@ -1,4 +1,5 @@
 ---
+featured: true
 title: Redesigning LinkedIn
 description: Business-oriented social network that connects millions of companies and employees. To enhance user experience - I proposed improvements to key sections.
 tags: ["User Research", "UI Redesign", "Web Experience"]

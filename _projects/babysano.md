@@ -16,11 +16,11 @@ duration: "8 months"
 tools-used: "Figma, Illustrator"
 logo-url: "/assets/img/babysano-logo.png"
 challenges:
-  - text: "Current centralized social media platforms create several key challenges for users and creators."
-  - text: "These platforms often use user data for targeted advertising, undermining privacy. Their algorithms prioritize content that reinforces existing beliefs, creating filter bubbles and polarizing communities."
-  - text: "Monetization options for creators are limited as most platforms take a large share of revenue and control visibility through unpredictable algorithms."
-  - text: "Finally, users lack true ownership of their communities, as platforms maintain control over data, rules, and access, leaving little room for community-led governance."
-  - text: "These issues highlight the need for more transparent, user-controlled alternatives."
+  - text: "Parents of newborns and young children often seek a supportive community where they can share experiences and connect with others facing similar challenges."
+  - text: "In LATAM, they want a one-stop solution to purchase health-related products, maintain medical records, and schedule appointments."
+  - text: "However, while there are products that address these needs, they tend to do so separately, lacking the integration that would truly enhance the parenting experience."
+  - text: "This can leave parents feeling overwhelmed and disconnected, highlighting the need for a platform that brings all these resources together in one place."
+
 solutions:
   - text: 'Babysano ("Healthy baby" in Spanish) was created as an all-in-one-platform available as both an app and a website. Designed to give parents or soon to be parents easy access to a wide range of services and products. It also provides a space for doctors to promote their services and connect with families.'
   - text: "The product was designed in Spanish to meet the needs of the local audience in Latin America."

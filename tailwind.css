@@ -55,3 +55,11 @@ a:hover .arrow-bounce {
   animation: bounce-x 0.7s ease-in infinite;
   display: inline-block;
 }
+
+details p {
+  overflow: hidden;
+  height: 0;
+  opacity: 0;
+  transform: translateY(-6px);
+  transition: height 0.3s ease, opacity 0.25s ease, transform 0.25s ease;
+}
